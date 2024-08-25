@@ -39,5 +39,11 @@ public class Day36P1{
         } catch (ClassNotFoundException e) {
             System.out.println(e.getMessage());
         }
+        try{
+        System.out.println(Integer.parseInt("abc"));
+        }
+        catch(NumberFormatException e) {
+            System.out.println(e.getMessage());
+    }
     }
 }
